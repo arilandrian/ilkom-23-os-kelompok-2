@@ -13,7 +13,7 @@ void insertionSort(int arr[], int n) {
     }
 }
 
-int main() {
+int main() 
     int n;
     cout << "Masukkan jumlah elemen: ";
     cin >> n;
