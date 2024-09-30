@@ -4,6 +4,7 @@
 Proyek ini adalah aplikasi web dengan container yang dikembangkan sebagai bagian dari tugas besar untuk mata kuliah Sistem Operasi. 
 Aplikasi ini memanfaatkan Docker untuk mengotomatisasi pengelolaan lingkungan pengembangan dan distribusi aplikasi.
 
+###### link penjelasan lengkap tugasnya: https://docs.google.com/presentation/d/1PqmYZC4Q9gAQGLPFcb5kefdSzhDbwoXms7jxNjRo164/edit?usp=sharing
 
 # Anggota Kelompok
 
