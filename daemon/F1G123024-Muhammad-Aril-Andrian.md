@@ -67,3 +67,15 @@ while (true) {
 ?>
 
 ```
+
+## 5. Menjalankan Daemon Process
+1. Buka command line di Laragon.
+2. Arahkan ke direktori proyek Anda:
+   ```bash
+   cd C:\laragon\www\mywebsite\daemon
+   ```
+3. Jalankan daemon process dengan perintah:
+   ```bash
+   php daemon_process.php
+   ```
+4. Pastikan daemon process berjalan di latar belakang dan dapat memproses pesanan secara otomatis.
