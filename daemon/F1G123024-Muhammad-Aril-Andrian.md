@@ -34,3 +34,36 @@ include('../connection/koneksi.php');
 if (!file_exists('../logs')) {
     mkdir('../logs', 0777, true);
 }
+
+while (true) {
+    // Ambil pesanan yang belum diproses
+    $stmt = $db->prepare("SELECT * FROM orders WHERE status = 'belum diproses'");
+    $stmt->execute();
+    $orders = $stmt->fetchAll();
+
+    foreach ($orders as $order) {
+        // Proses pesanan (misalnya: ubah status pesanan)
+        $stmt_update = $db->prepare("UPDATE orders SET status = 'diproses' WHERE id = ?");
+        $stmt_update->execute([$order['id']]);
+
+        // Dapatkan informasi tambahan untuk log
+        $customerName = isset($order['nama_pelanggan']) ? $order['nama_pelanggan'] : 'Tidak Diketahui'; // Kolom yang benar
+        $tableNumber = isset($order['nomor_meja']) ? $order['nomor_meja'] : 'Tidak Diketahui'; // Kolom yang benar
+        $totalPrice = isset($order['total_harga']) ? $order['total_harga'] : 0; // Kolom yang benar
+
+        // Log aktivitas pemrosesan
+        $logMessage = "Pesanan ID: ".$order['id']." | Nama Pelanggan: ".$customerName." | No Meja: ".$tableNumber." | Total Harga: Rp ".$totalPrice." | Diproses pada ".date('Y-m-d H:i:s')."\n";
+        
+        // Menulis log
+        file_put_contents($logFile, $logMessage, FILE_APPEND);
+        
+        // Output ke terminal (opsional)
+        echo $logMessage;
+    }
+
+    // Tunggu 10 detik sebelum memeriksa lagi
+    sleep(10);
+}
+?>
+
+```
