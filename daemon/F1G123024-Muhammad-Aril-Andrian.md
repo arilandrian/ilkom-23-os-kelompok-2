@@ -95,3 +95,7 @@ Semoga panduan ini membantu Anda dalam menjalankan website menggunakan daemon pr
 
 ## Berhasil Membuat Pesanan
 ![Bukti Screenshoot](screenshoot/arilandrian_gambar2.png)
+
+## Daemon Process Menampilkan Log Pesanan
+![Bukti Screenshoot](screenshoot/arilandrian_gambar3.png)
+![Bukti Screenshoot](screenshoot/arilandrian_gambar4.png)
