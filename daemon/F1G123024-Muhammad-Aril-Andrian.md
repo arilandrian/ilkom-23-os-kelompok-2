@@ -87,3 +87,5 @@ Log aktivitas daemon process akan disimpan di `logs/daemon_log.txt`. Anda bisa m
 Dengan menggunakan **Laragon** dan daemon process, Anda dapat menjalankan website dengan kemampuan untuk mengelola tugas-tugas latar belakang secara efisien. Ini sangat berguna untuk aplikasi yang memerlukan pemrosesan data yang konstan atau berulang, seperti pengelolaan pesanan di sistem manajemen warung makan.
 
 Semoga panduan ini membantu Anda dalam menjalankan website menggunakan daemon process dengan Laragon!
+
+## 8.Bukti Screenshoot Program Berhasil Berjalan
