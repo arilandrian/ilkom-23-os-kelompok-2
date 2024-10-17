@@ -79,3 +79,6 @@ while (true) {
    php daemon_process.php
    ```
 4. Pastikan daemon process berjalan di latar belakang dan dapat memproses pesanan secara otomatis.
+
+## 6. Memantau Log
+Log aktivitas daemon process akan disimpan di `logs/daemon_log.txt`. Anda bisa membuka file ini untuk melihat pesan terkait pemrosesan pesanan yang telah dilakukan oleh daemon process.
