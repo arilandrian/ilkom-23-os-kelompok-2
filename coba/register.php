@@ -24,8 +24,8 @@
                                 @enderror
                             </div>
                         </div>
-
-                        <div class="row mb-3">
+<!-- asdada
+ adasdadad                         <div class="row mb-3">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
@@ -76,4 +76,5 @@
 </div>
 <!-- asasdasdas
  ada -->
+ <!-- asdad -->
 @endsection
