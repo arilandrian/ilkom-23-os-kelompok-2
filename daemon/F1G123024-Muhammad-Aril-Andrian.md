@@ -89,3 +89,6 @@ Dengan menggunakan **Laragon** dan daemon process, Anda dapat menjalankan websit
 Semoga panduan ini membantu Anda dalam menjalankan website menggunakan daemon process dengan Laragon!
 
 ## 8.Bukti Screenshoot Program Berhasil Berjalan
+
+## Tampilan Website
+![Bukti Screenshoot](screenshoot/arilandrian_gambar1.png)
