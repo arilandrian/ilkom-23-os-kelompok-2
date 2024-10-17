@@ -99,13 +99,13 @@ Log aktivitas daemon process akan disimpan di `logs/daemon_log.txt`. Anda bisa m
 
 ## 7.Bukti Screenshoot Program Berhasil Berjalan
 ## Tampilan Start dan Stop Daemon Service (PHPDaemon)
-![Bukti Screenshoot](screenshoot/arilandrian_gambar4.png)
+![Bukti Screenshoot](https://drive.google.com/uc?id=1mR39iXyg4TC7oglQ5sBKRtDO_Z2rz74L)
 
 ## Tampilan Website
-![Bukti Screenshoot](screenshoot/arilandrian_gambar1.png)
+![Bukti Screenshoot](https://drive.google.com/uc?id=1B8SaN9RWdvFAZYK0vtVBP3tRberxKgsd)
 
 ## Berhasil Membuat Pesanan
-![Bukti Screenshoot](screenshoot/arilandrian_gambar2.png)
+![Bukti Screenshoot](https://drive.google.com/uc?id=1wyQMBKwPcnvWxbeSZCQ6_L5cf_MNPtmN)
 
 ## Daemon Process Menampilkan Log Pesanan
-![Bukti Screenshoot](screenshoot/arilandrian_gambar3.png)
+![Bukti Screenshoot](https://drive.google.com/uc?id=1K6ckJkt3BYGZKNJAKCnLIv7nAExrwVBY)
