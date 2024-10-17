@@ -10,3 +10,16 @@ Sebelum memulai, pastikan Anda telah menginstal dan mengkonfigurasi lingkungan p
 ### 2.1. Instalasi Laragon
 1. Unduh dan instal **Laragon** dari situs resminya.
 2. Jalankan Laragon dan pastikan layanan Apache dan MySQL berjalan.
+
+## 3. Struktur Proyek
+Buat struktur folder proyek Anda sebagai berikut:
+```
+C:\laragon\www\mywebsite    
+    ├── connection   
+    │   └── koneksi.php
+    ├── daemon
+    |   └── daemon_process.php
+    ├── logs 
+    |   └── daemon_log.txt
+    └── index.php
+```
