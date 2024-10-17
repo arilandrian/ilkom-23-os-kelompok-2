@@ -26,3 +26,11 @@ C:\laragon\www\mywebsite
 
 ## 4. Membuat Daemon Process
 Dalam file `daemon_process.php`, tuliskan logika untuk mengelola tugas latar belakang, misalnya memproses pesanan. Contoh kode untuk daemon process:
+```php
+<?php
+include('../connection/koneksi.php');
+
+// Pastikan folder logs ada
+if (!file_exists('../logs')) {
+    mkdir('../logs', 0777, true);
+}
