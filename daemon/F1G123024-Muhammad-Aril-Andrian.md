@@ -92,3 +92,6 @@ Semoga panduan ini membantu Anda dalam menjalankan website menggunakan daemon pr
 
 ## Tampilan Website
 ![Bukti Screenshoot](screenshoot/arilandrian_gambar1.png)
+
+## Berhasil Membuat Pesanan
+![Bukti Screenshoot](screenshoot/arilandrian_gambar2.png)
