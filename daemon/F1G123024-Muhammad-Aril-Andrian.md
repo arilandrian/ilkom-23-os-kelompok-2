@@ -23,3 +23,6 @@ C:\laragon\www\mywebsite
     |   └── daemon_log.txt
     └── index.php
 ```
+
+## 4. Membuat Daemon Process
+Dalam file `daemon_process.php`, tuliskan logika untuk mengelola tugas latar belakang, misalnya memproses pesanan. Contoh kode untuk daemon process:
