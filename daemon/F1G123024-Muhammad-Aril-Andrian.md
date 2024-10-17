@@ -83,8 +83,7 @@ while (true) {
 ## 6. Memantau Log
 Log aktivitas daemon process akan disimpan di `logs/daemon_log.txt`. Anda bisa membuka file ini untuk melihat pesan terkait pemrosesan pesanan yang telah dilakukan oleh daemon process.
 
-
-## 8.Bukti Screenshoot Program Berhasil Berjalan
+## 7.Bukti Screenshoot Program Berhasil Berjalan
 
 ## Tampilan Website
 ![Bukti Screenshoot](screenshoot/arilandrian_gambar1.png)
