@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Hasil Bedah Container
+
+echo "Menampilkan isi direktori perangkat:"
+ls /dev/
+
+echo -e "\nMenampilkan informasi distribusi OS:"
+cat /etc/os-release
+
+echo -e "\nMenampilkan proses yang berjalan:"
+ps aux
+
+echo -e "\nMenampilkan status jaringan:"
+ifconfig
+
+echo -e "\nMenampilkan konfigurasi firewall:"
+iptables -L
+
+echo -e "\nMenampilkan informasi penggunaan disk:"
+df -h
+
+echo -e "\nMenampilkan informasi memori:"
+free -m
+
+echo -e "\nMenampilkan informasi tentang sistem file:"
+mount
+
+echo -e "\nMenampilkan log kernel:"
+dmesg | less
+
+echo -e "\nMenampilkan daftar paket yang terinstal (jika menggunakan Debian/Ubuntu):"
+dpkg --get-selections
