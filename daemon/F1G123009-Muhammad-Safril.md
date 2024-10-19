@@ -1,4 +1,4 @@
-# MENJALANKAN DAEMON PROCESS DI LARAVEL
+# MENJALANKAN DAEMON PROCESS DI LARAVEL 10
 
 ## Deskripsi
 Dokumentasi ini menjelaskan cara membuat dan menggunakan skrip untuk menjalankan dan menghentikan server Laravel sebagai daemon.
