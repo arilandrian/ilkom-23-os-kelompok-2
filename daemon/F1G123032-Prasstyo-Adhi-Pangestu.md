@@ -110,8 +110,6 @@ Log aktivitas daemon process akan disimpan di `logs/purchase_log.txt`. Anda bisa
 ![Bukti Screenshoot](https://drive.google.com/uc?export=view&id=1hEmO78vwro4p98iogaDBKEyDlqfZRLYW)
 ### 2. Tampilan daftar pembelian game
 ![Bukti Screenshoot](https://drive.google.com/uc?export=view&id=1yrCl4IXW7R_N5MHMj5ET4t9Bbr8MfVtx)
-### 3. Pemesanan Berhasil
-![Bukti Screenshoot](https://drive.google.com/uc?export=view&id=1TZKI4uGi8v1FoIHwX7VfPTLgrTFULQ7K)
 
 ## Menampilkan log pesanan
 ![Bukti Screenshoot](https://drive.google.com/uc?export=view&id=1fbcg0sFzSjo18AZcWye7KsVd6YqdZgtj)
