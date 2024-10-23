@@ -88,7 +88,7 @@ NSSM digunakan untuk menjalankan `daemon_game_purchase.php` sebagai service di W
 E:\asda\nssm\nssm-2.24\win64\nssm.exe install DaemonPHP
 ```
 3. Setelah menjalankan perintah tersebut, akan muncul GUI. Isi konfigurasi berikut:
-- Path: arahkan ke executable PHP di Laragon, misalnya `E:\asda\xamppp\php\php.exe`
+- Path: arahkan ke php.exe pada folder di Xampp, misalnya `E:\asda\xamppp\php\php.exe`
 - Startup directory: arahkan ke direktori proyek Anda, misalnya
 `E:\asda\xamppp\htdocs\game store\daemon`
 - Arguments: tambahkan daemon_game_purchase.php agar PHP menjalankan file daemon tersebut.
@@ -98,3 +98,5 @@ E:\asda\nssm\nssm-2.24\win64\nssm.exe install DaemonPHP
 Setelah service berhasil ditambahkan,jalankan service dengan perintah berikut:
 `.\nssm start PHPDaemon`
 
+## 6. Memantau Log
+Log aktivitas daemon process akan disimpan di `logs/purchase_log.txt`. Anda bisa membuka file ini untuk melihat pesan terkait pemrosesan pesanan yang telah dilakukan oleh daemon process.
