@@ -33,3 +33,46 @@ E:\asda\xamppp\htdocs\game store
 
 ## 4. Membuat Daemon Process
 Dalam file `daemon_game_purchase.php`, tuliskan logika untuk mengelola tugas latar belakang, untuk memproses pembelian game. Contoh kode untuk daemon process:
+```php
+<?php
+include('../connection/koneksi.php');
+
+// Pastikan folder logs ada
+if (!file_exists('../logs')) {
+    mkdir('../logs', 0777, true);
+}
+
+// Nama file log
+$logFile = '../logs/purchase_log.txt';
+
+while (true) {
+    // Ambil pembelian yang belum diproses
+    $stmt = $db->prepare("SELECT * FROM purchases WHERE status = 'belum diproses'");
+    $stmt->execute();
+    $purchases = $stmt->fetchAll();
+
+    foreach ($purchases as $purchase) {
+        // Proses pembelian (misalnya: ubah status pembelian)
+        $stmt_update = $db->prepare("UPDATE purchases SET status = 'diproses' WHERE id = ?");
+        $stmt_update->execute([$purchase['id']]);
+
+        // Dapatkan informasi untuk log
+        $gameName = isset($purchase['nama_game']) ? $purchase['nama_game'] : 'Tidak Diketahui';
+        $buyerName = isset($purchase['nama_pembeli']) ? $purchase['nama_pembeli'] : 'Tidak Diketahui';
+        $price = isset($purchase['harga']) ? $purchase['harga'] : 0;
+
+        // Buat pesan log
+        $logMessage = "Pembelian ID: ".$purchase['id']." | Nama Game: ".$gameName." | Nama Pembeli: ".$buyerName." | Harga: Rp ".number_format($price, 0, ',', '.')." | Diproses pada ".date('Y-m-d H:i:s')."\n";
+
+        // Menulis log ke file
+        file_put_contents($logFile, $logMessage, FILE_APPEND);
+        
+        // Output ke terminal (opsional)
+        echo $logMessage;
+    }
+
+    // Tunggu 10 detik sebelum memeriksa lagi
+    sleep(10);
+}
+?>
+
