@@ -4,7 +4,7 @@
 Daemon process adalah jenis proses latar belakang (background process) yang berjalan tanpa interaksi langsung dari pengguna. Di sistem operasi berbasis Unix atau Linux, daemon biasanya digunakan untuk menangani tugas yang berulang, seperti server jaringan, pemantauan sistem, atau layanan sistem lainnya. Daemon akan terus berjalan, siap untuk merespons permintaan tertentu, bahkan setelah pengguna logout dari sistem.
 
 ## 2. preparation
-Pada metode ini saya menggunakan **Xampp** dan untuk daemon process nya menggunakan **nssm**, kemudian buatlah database dan koneksikan ke website anda
+Pada metode ini saya menggunakan **Xampp** dan untuk daemon process nya menggunakan **nssm**, kemudian buatlah database dan koneksikan ke website anda, di website yang saya buat adalah website untuk mengelola pembelian game
 
 ### 2.1 Menginstall Xampp
 1. Download Xampp ke komputer/laptop Anda, berikut link untuk mendownload Xampp (https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.0.30/xampp-windows-x64-8.0.30-0-VS16-installer.exe)
@@ -29,5 +29,7 @@ E:\asda\xamppp\htdocs\game store
     └── index.php
     └── purchase.php
     └── style.css
+```
 
-    
+## 4. Membuat Daemon Process
+Dalam file `daemon_game_purchase.php`, tuliskan logika untuk mengelola tugas latar belakang, untuk memproses pembelian game. Contoh kode untuk daemon process:
