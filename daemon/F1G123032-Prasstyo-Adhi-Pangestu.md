@@ -100,3 +100,6 @@ Setelah service berhasil ditambahkan,jalankan service dengan perintah berikut:
 
 ## 6. Memantau Log
 Log aktivitas daemon process akan disimpan di `logs/purchase_log.txt`. Anda bisa membuka file ini untuk melihat pesan terkait pemrosesan pesanan yang telah dilakukan oleh daemon process.
+
+## 7. Hasil Screenshot Program 
+## Tampilan Start Daemon menggunakan nssm
