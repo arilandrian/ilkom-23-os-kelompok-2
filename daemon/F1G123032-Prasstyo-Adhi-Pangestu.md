@@ -76,3 +76,25 @@ while (true) {
 }
 ?>
 
+``` 
+## 5. Menjalankan Daemon Process dengan NSSM
+NSSM digunakan untuk menjalankan `daemon_game_purchase.php` sebagai service di Windows agar proses ini tetap berjalan meskipun terminal ditutup.
+
+### 5.1 Menambahkan Service dengan NSSM
+1. Buka Command Promt atau PowerShell sebagai Administartor.
+2. Jalankan perintah berikut untuk menambah service:
+
+```
+E:\asda\nssm\nssm-2.24\win64\nssm.exe install DaemonPHP
+```
+3. Setelah menjalankan perintah tersebut, akan muncul GUI. Isi konfigurasi berikut:
+- Path: arahkan ke executable PHP di Laragon, misalnya `E:\asda\xamppp\php\php.exe`
+- Startup directory: arahkan ke direktori proyek Anda, misalnya
+`E:\asda\xamppp\htdocs\game store\daemon`
+- Arguments: tambahkan daemon_game_purchase.php agar PHP menjalankan file daemon tersebut.
+4. Klik Install Service
+
+### 5.2 Menjalankan Service
+Setelah service berhasil ditambahkan,jalankan service dengan perintah berikut:
+`.\nssm start PHPDaemon`
+
