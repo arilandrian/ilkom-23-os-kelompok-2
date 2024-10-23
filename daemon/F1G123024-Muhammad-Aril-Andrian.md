@@ -77,7 +77,7 @@ while (true) {
 NSSM digunakan untuk menjalankan `daemon_process.php` sebagai service di Windows agar proses ini tetap berjalan meskipun terminal ditutup.
 
 ### 5.1 Menambahkan Service dengan NSSM
-1. Buka Command Promt atau PowerShell sebagai Administartor.
+1. Buka Command Prompt atau PowerShell sebagai Administartor.
 2. Jalankan perintah berikut untuk menambah service:
 
 ```
@@ -92,7 +92,7 @@ C:\nssm\nssm.exe install PHPDaemon
 
 ### 5.2 Menjalankan Service
 Setelah service berhasil ditambahkan,jalankan service dengan perintah berikut:
-`.\nssm start PHPDaemon`
+`.\nssm.exe start PHPDaemon`
 
 ## 6. Memantau Log
 Log aktivitas daemon process akan disimpan di `logs/daemon_log.txt`. Anda bisa membuka file ini untuk melihat pesan terkait pemrosesan pesanan yang telah dilakukan oleh daemon process.
