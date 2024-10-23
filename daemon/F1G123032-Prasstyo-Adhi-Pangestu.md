@@ -108,3 +108,9 @@ Log aktivitas daemon process akan disimpan di `logs/purchase_log.txt`. Anda bisa
 ## Tampilan Wesbsite Pemesanan Game
 ### 1. Website
 ![Bukti Screenshoot](https://drive.google.com/file/d/1hEmO78vwro4p98iogaDBKEyDlqfZRLYW/view?usp=drive_link)
+
+### 2. Pemesanan Berhasil
+![Bukti Screenshoot](https://drive.google.com/file/d/1TZKI4uGi8v1FoIHwX7VfPTLgrTFULQ7K/view?usp=drive_link)
+
+## Menampilkan log pesanan
+![Bukti Screenshoot](https://drive.google.com/file/d/1fbcg0sFzSjo18AZcWye7KsVd6YqdZgtj/view?usp=drive_link)
