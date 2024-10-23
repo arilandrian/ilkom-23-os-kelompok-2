@@ -103,13 +103,14 @@ Log aktivitas daemon process akan disimpan di `logs/purchase_log.txt`. Anda bisa
 
 ## 7. Hasil Screenshot Program 
 ## Tampilan Start Daemon menggunakan nssm
-![Bukti Screenshoot](https://drive.google.com/file/d/1gz0lC_Aa3MM3qZU_-BsWfC6dbedO1Ljw/view?usp=sharing)
+![Bukti Screenshoot](https://drive.google.com/uc?export=view&id=1gz0lC_Aa3MM3qZU_-BsWfC6dbedO1Ljw/view?usp=sharing)
 
 ## Tampilan Wesbsite Pemesanan Game
-### 1. Website
+### 1. Website Pembelian
 ![Bukti Screenshoot](https://drive.google.com/file/d/1hEmO78vwro4p98iogaDBKEyDlqfZRLYW/view?usp=drive_link)
-
-### 2. Pemesanan Berhasil
+### 2. Tampilan daftar pembelian game
+![Bukti Screenshoot](https://drive.google.com/file/d/1hEmO78vwro4p98iogaDBKEyDlqfZRLYW/view?usp=drive_link)
+### 3. Pemesanan Berhasil
 ![Bukti Screenshoot](https://drive.google.com/file/d/1TZKI4uGi8v1FoIHwX7VfPTLgrTFULQ7K/view?usp=drive_link)
 
 ## Menampilkan log pesanan
