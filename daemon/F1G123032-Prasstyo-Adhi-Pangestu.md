@@ -16,7 +16,6 @@ NSSM adalah alat yang memungkinkan kita menjalankan daemon process sebagai servi
 1. Download **NSSM** dari situs resminya: [https://nssm.cc/download].
 2. Ekstrak file yang diunduh ke direktori yang mudah diakses, di proses ini saya menginstall di  `E:\asda\nssm`.
 
-### 2.3 Membuat struktur proyek 
 ## 3. Struktur Proyek
 Buat struktur folder proyek Anda sebagai berikut:
 ```
@@ -28,3 +27,7 @@ E:\asda\xamppp\htdocs\game store
     ├── logs 
     |   └── purchase_log.txt
     └── index.php
+    └── purchase.php
+    └── style.css
+
+    
