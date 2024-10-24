@@ -334,7 +334,5 @@ Data pengunjung dan statistik akan disimpan di `visitors.txt` dan `stats.json`, 
 
 ## Tampilan Website
 ![Bukti Screenshoot](https://drive.google.com/uc?id=1QQlNuUlQgUvpkRPkjx5fmhNSX4BPnbbO)
-## Tampilan Website Berhasil Menghitung Pengunjung
-![Bukti Screenshoot](https://drive.google.com/uc?id=1QQlNuUlQgUvpkRPkjx5fmhNSX4BPnbbO)
 ## Daemon Process Berhasil Menampilkan Log Aktivitas
 ![Bukti Screenshoot](https://drive.google.com/uc?id=1-Eec5YCiVUPeHLUHWXgaDjERy2qW8gCO)
