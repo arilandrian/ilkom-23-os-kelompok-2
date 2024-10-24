@@ -1,4 +1,4 @@
-# MENJALANKAN DAEMON PROCESS DI LARAVEL
+# MENJALANKAN DAEMON PROCESS DI LARAVEL 10
 
 ## Deskripsi
 Dokumentasi ini menjelaskan cara membuat dan menggunakan skrip untuk menjalankan dan menghentikan server Laravel sebagai daemon.
@@ -8,7 +8,7 @@ Dokumentasi ini menjelaskan cara membuat dan menggunakan skrip untuk menjalankan
 ### 1. Salin Proyek Laravel
 Clone proyek Laravel yang diinginkan dari repositori lain dengan perintah:
 ```bash
-git clone <proyek_orang_lain>
+git clone <proyek_milik_orang_lain>
 ```
 
 ### 2. Membuat Skrip Daemon
