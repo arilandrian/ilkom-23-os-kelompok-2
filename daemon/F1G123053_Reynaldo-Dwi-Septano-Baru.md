@@ -187,7 +187,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 ```
 ### C. File logout.php
-File ini akan berfungsi sebagai daemon yang berjalan di latar belakang.
+File ini akan memproses ketika user logout.
 
 ```php
 <!-- logout.php -->
@@ -211,7 +211,7 @@ exit;
 ```
 
 ### D. File activity_daemon.php
-File ini akan menangani logout.
+File ini akan berfungsi sebagai daemon yang berjalan di latar belakang.
 
 ```php
 <!-- activity.php -->
