@@ -1,7 +1,4 @@
 # Panduan Pembuatan Daemon Process
-NIM: F1G123024  
-Nama: Muhammad Aril Andrian
-
 Berikut ini adalah tahapan pembuatan daemon process.
 
 ## Buat File .service
