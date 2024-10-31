@@ -122,4 +122,19 @@ $ sudo chmod +x coba_daemon.sh
 ```bash
 sudo nano /etc/systemd/system/safril.service
 ```
+## 5. Isi file.service (safril.service) dengan konfigurasi berikut
+```bash
+[Unit]
+Description=System uji Daemon
+After=network.target
 
+[Service]
+Type=forking
+ExecStart=/opt/uji_daemon/uji_daemon.sh start
+ExecStop=/opt/uji_daemon/uji_daemon.sh stop
+PIDFile=/var/run/uji_daemon.pid
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
