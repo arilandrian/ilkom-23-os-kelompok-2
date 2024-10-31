@@ -156,3 +156,7 @@ sudo systemctl start safril.service
 #cek status 
 sudo sytemctl status safril.service
 ```
+## 8. Melihat log service
+```bash
+$ sudo journal -u safril.service
+```
