@@ -12,7 +12,7 @@ cd /opt/coba_daemon
 #Buat script daemon
 sudo nano coba_daemon.sh
 ```
-## 2. masukan file script kedalam  uji_daemon.sh
+## 2. masukan file script kedalam  coba_daemon.sh
 ```bash
 #!/bin/bash
 
@@ -122,3 +122,4 @@ $ sudo chmod +x coba_daemon.sh
 ```bash
 sudo nano /etc/systemd/system/safril.service
 ```
+
