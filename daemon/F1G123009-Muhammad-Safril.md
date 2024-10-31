@@ -166,3 +166,6 @@ sudo systemctl stop safril.service
 ```
 adapun tampilan status daemon telah berjalan:
 ![Gambar dari Google Drive](https://drive.google.com/uc?export=download&id=1-5MfCBiafQeXmYk36Q3R6GXlD5AQr3FC)
+
+adapun tampilan status daemon di hentikan:
+![Gambar dari Google Drive](https://drive.google.com/uc?export=download&id=16qBr2SgWrNJNVdCznoYgqYaPsJPKtL1z)
