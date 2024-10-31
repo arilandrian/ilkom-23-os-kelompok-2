@@ -142,3 +142,17 @@ WantedBy=multi-user.target
 ```bash
 sudo chmod 644 /etc/systemd/system/safril.service
 ```
+## 7. Menjalankan file Service
+```bash
+#reload daemon
+sudo systemctl daemon-reload
+
+# Enable service agar start saat boot
+sudo systemctl enable safril.service
+
+#start service
+sudo systemctl start safril.service
+
+#cek status 
+sudo sytemctl status safril.service
+```
