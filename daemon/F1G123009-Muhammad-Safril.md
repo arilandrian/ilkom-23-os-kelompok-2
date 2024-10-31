@@ -114,3 +114,7 @@ esac
 
 exit 0
 ```
+## 3. Berikan permission
+```bash
+$ sudo chmod +x coba_daemon.sh
+```
