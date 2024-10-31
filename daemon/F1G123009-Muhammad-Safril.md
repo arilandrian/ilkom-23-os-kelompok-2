@@ -160,3 +160,9 @@ sudo sytemctl status safril.service
 ```bash
 $ sudo journal -u safril.service
 ```
+## 9. Memberhentikan server
+```bash
+sudo systemctl stop safril.service
+```
+adapun tampilan status daemon telah berjalan:
+![Gambar dari Google Drive](https://drive.google.com/uc?id=1-zoh4KzSn_M5i9UGRCnEHFuaMbLmhOWc)
