@@ -138,3 +138,7 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+## 6. Berikan permission
+```bash
+sudo chmod 644 /etc/systemd/system/safril.service
+```
