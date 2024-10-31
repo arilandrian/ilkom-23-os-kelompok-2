@@ -120,5 +120,5 @@ $ sudo chmod +x coba_daemon.sh
 ```
 ## 4. Buat File Service di Systemd
 ```bash
-sudo nano /etc/systemd/system/cyber.service
+sudo nano /etc/systemd/system/safril.service
 ```
