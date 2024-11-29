@@ -1,3 +1,4 @@
+# ini proses trhead
 import threading
 import time
 
