@@ -1,4 +1,4 @@
-# MENJALANKAN DAEMON PROCESS DI WSL
+# MENJALANKAN DAEMON PROCESS MENGGUNAKAN WSL
 ## Deskripsi
 Dokumentasi ini menjelaskan cara membuat dan menggunakan skrip untuk menjalankan dan menghentikan daemon server
 ## Langkah-langkah
