@@ -12,7 +12,7 @@ cd /opt/coba_daemon
 #Buat script daemon
 sudo nano coba_daemon.sh
 ```
-## 2. masukan file script kedalam  coba_daemon.sh
+## 2. masukkan file script kedalam  coba_daemon.sh
 ```bash
 #!/bin/bash
 
