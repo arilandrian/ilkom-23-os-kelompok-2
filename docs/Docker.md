@@ -10,3 +10,24 @@ Docker adalah platform containerization yang memungkinkan Anda untuk mengemas ap
 ### 1. **Image**
 Image adalah template read-only yang digunakan untuk membuat container. Sebuah image bisa berisi sistem operasi, aplikasi, dan dependensi.
 - Contoh: `ubuntu:latest`, `nginx:alpine`
+### 2. **Container**
+Container adalah instance dari image. Container bersifat runtime dan dapat dimodifikasi selama berjalan.
+- Perintah untuk membuat container dari image:
+  ```bash
+  docker run [OPTIONS] IMAGE_NAME[:TAG]
+  ```
+
+### 3. **Dockerfile**
+Dockerfile adalah file teks yang berisi instruksi untuk membangun image secara otomatis.
+- Contoh Dockerfile sederhana:
+  ```dockerfile
+  FROM ubuntu:latest
+  RUN apt-get update && apt-get install -y python3
+  CMD ["python3"]
+  ```
+
+### 4. **Docker Hub**
+Docker Hub adalah repositori online tempat menyimpan dan berbagi image Docker.
+- Untuk menarik (pull) image dari Docker Hub:
+  ```bash
+  docker pull IMAGE_NAME[:TAG]
