@@ -65,3 +65,23 @@ Manajemen paket tergantung pada distro Linux yang digunakan:
   sudo apt install [nama]  # Menginstal paket
   sudo apt remove [nama]   # Menghapus paket
   ```
+ **Red Hat/Fedora (DNF/YUM):**
+  ```bash
+  sudo dnf install [nama]  # Menginstal paket
+  sudo dnf remove [nama]   # Menghapus paket
+  ```
+
+- **Arch Linux (Pacman):**
+  ```bash
+  sudo pacman -S [nama]    # Menginstal paket
+  sudo pacman -R [nama]    # Menghapus paket
+  ```
+
+## Tips dan Trik Linux
+
+1. **Tab Completion**: Tekan `Tab` untuk melengkapi nama file atau perintah.
+2. **History Command**: Gunakan `history` untuk melihat perintah yang telah dijalankan.
+3. **Shortcut Keyboard**:
+   - `Ctrl + C`: Menghentikan proses yang berjalan.
+   - `Ctrl + Z`: Menangguhkan proses yang berjalan.
+   - `Ctrl + D`: Keluar dari shell.
