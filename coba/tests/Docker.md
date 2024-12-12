@@ -22,3 +22,9 @@ Dockerfile adalah file teks yang berisi instruksi untuk membangun image secara o
   RUN apt-get update && apt-get install -y python3
   CMD ["python3"]
   ```
+### 4. **Docker Hub**
+Docker Hub adalah repositori online tempat menyimpan dan berbagi image Docker.
+- Untuk menarik (pull) image dari Docker Hub:
+  ```bash
+  docker pull IMAGE_NAME[:TAG]
+  ```
