@@ -50,3 +50,50 @@ Volume digunakan untuk menyimpan data agar tetap persisten, meskipun container d
 | `docker stop CONTAINER_ID`        | Menghentikan container                      |
 | `docker rm CONTAINER_ID`          | Menghapus container                         |
 | `docker rmi IMAGE_ID`             | Menghapus image                             |
+## Contoh Penggunaan Docker
+
+### 1. **Menjalankan Aplikasi Web**
+Menjalankan server Nginx:
+```bash
+docker run -d -p 8080:80 nginx
+```
+Akses aplikasi di browser: `http://localhost:8080`
+
+### 2. **Membangun Image dari Dockerfile**
+- Buat file `Dockerfile`:
+  ```dockerfile
+  FROM python:3.9-slim
+  COPY app.py /app/
+  CMD ["python", "/app/app.py"]
+  ```
+- Bangun image:
+  ```bash
+  docker build -t my-python-app .
+  ```
+- Jalankan container:
+  ```bash
+  docker run my-python-app
+  ## Contoh Penggunaan Docker
+
+### 1. **Menjalankan Aplikasi Web**
+Menjalankan server Nginx:
+```bash
+docker run -d -p 8080:80 nginx
+```
+Akses aplikasi di browser: `http://localhost:8080`
+
+### 2. **Membangun Image dari Dockerfile**
+- Buat file `Dockerfile`:
+  ```dockerfile
+  FROM python:3.9-slim
+  COPY app.py /app/
+  CMD ["python", "/app/app.py"]
+  ```
+- Bangun image:
+  ```bash
+  docker build -t my-python-app .
+  ```
+- Jalankan container:
+  ```bash
+  docker run my-python-app
+  ```
