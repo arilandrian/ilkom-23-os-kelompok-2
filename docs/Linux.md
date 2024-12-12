@@ -49,3 +49,23 @@ Distribusi Linux adalah variasi Linux yang disesuaikan untuk kebutuhan tertentu.
 | `/proc`           | Informasi proses                      |
 
 ## Manajemen Proses
+## Manajemen Proses
+
+| Perintah                          | Fungsi                                    |
+|-----------------------------------|------------------------------------------|
+| `ps`                              | Menampilkan daftar proses                |
+| `top`                             | Menampilkan proses secara interaktif     |
+| `kill [PID]`                      | Menghentikan proses berdasarkan PID      |
+| `jobs`                            | Menampilkan daftar proses latar belakang |
+| `fg`                              | Mengembalikan proses ke latar depan      |
+| `bg`                              | Menjalankan proses di latar belakang     |
+
+## Manajemen Paket
+Manajemen paket tergantung pada distro Linux yang digunakan:
+
+- **Debian/Ubuntu (APT):**
+  ```bash
+  sudo apt update          # Memperbarui daftar paket
+  sudo apt install [nama]  # Menginstal paket
+  sudo apt remove [nama]   # Menghapus paket
+  ```
