@@ -16,3 +16,19 @@ Linux menggunakan struktur file berbasis hierarki dengan root (`/`) sebagai dire
 ### 4. **Distribution (Distro)**
 Distribusi Linux adalah variasi Linux yang disesuaikan untuk kebutuhan tertentu.
 - Contoh distro: Ubuntu, Fedora, Debian, CentOS, Arch Linux.
+## Perintah Dasar Linux
+
+| Perintah                          | Fungsi                                    |
+|-----------------------------------|------------------------------------------|
+| `ls`                              | Menampilkan daftar file dan direktori    |
+| `cd`                              | Berpindah direktori                      |
+| `pwd`                             | Menampilkan direktori kerja saat ini     |
+| `mkdir [nama_folder]`             | Membuat direktori baru                   |
+| `rm [nama_file/direktori]`        | Menghapus file atau direktori            |
+| `cp [sumber] [tujuan]`            | Menyalin file atau direktori             |
+| `mv [sumber] [tujuan]`            | Memindahkan atau mengganti nama file     |
+| `touch [nama_file]`               | Membuat file kosong baru                 |
+| `cat [nama_file]`                 | Menampilkan isi file                     |
+| `man [perintah]`                  | Menampilkan dokumentasi perintah         |
+| `chmod`                           | Mengubah izin file atau direktori        |
+| `chown`                           | Mengubah kepemilikan file atau direktori |
