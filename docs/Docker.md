@@ -97,3 +97,25 @@ Akses aplikasi di browser: `http://localhost:8080`
   ```bash
   docker run my-python-app
   ```
+### 3. **Menggunakan Volume**
+Menyimpan data dari container ke host:
+```bash
+docker run -v /host/data:/container/data ubuntu touch /container/data/example.txt
+```
+
+## Tips dan Trik Docker
+- **Menghentikan semua container:**
+  ```bash
+  docker stop $(docker ps -q)
+  ```
+- **Menghapus semua container:**
+  ```bash
+  docker rm $(docker ps -aq)
+  ```
+- **Membersihkan sistem Docker:**
+  ```bash
+  docker system prune -a
+  ```
+
+## Kesimpulan
+Docker adalah alat yang sangat berguna untuk membangun, menjalankan, dan mengelola aplikasi dalam lingkungan yang terisolasi. Dengan memahami konsep dasar dan perintah Docker, Anda dapat meningkatkan efisiensi pengembangan dan deployment aplikasi.
