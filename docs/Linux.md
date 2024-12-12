@@ -34,3 +34,18 @@ Distribusi Linux adalah variasi Linux yang disesuaikan untuk kebutuhan tertentu.
 | `man [perintah]`                  | Menampilkan dokumentasi perintah         |
 | `chmod`                           | Mengubah izin file atau direktori        |
 | `chown`                           | Mengubah kepemilikan file atau direktori |
+## Struktur File Linux
+
+| Direktori         | Deskripsi                              |
+|-------------------|----------------------------------------|
+| `/`               | Root direktori                        |
+| `/home`           | Direktori pengguna                    |
+| `/etc`            | File konfigurasi                      |
+| `/var`            | File log dan data variabel            |
+| `/usr`            | Aplikasi dan utilitas sistem          |
+| `/bin`            | Biner eksekusi dasar                  |
+| `/dev`            | Perangkat keras                       |
+| `/tmp`            | File sementara                        |
+| `/proc`           | Informasi proses                      |
+
+## Manajemen Proses
