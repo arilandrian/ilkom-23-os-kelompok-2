@@ -53,3 +53,12 @@ Menjalankan server Nginx:
 ```bash
 docker run -d -p 8080:80 nginx
 ```
+Akses aplikasi di browser: `http://localhost:8080`
+
+### 2. **Membangun Image dari Dockerfile**
+- Buat file `Dockerfile`:
+  ```dockerfile
+  FROM python:3.9-slim
+  COPY app.py /app/
+  CMD ["python", "/app/app.py"]
+  ```
