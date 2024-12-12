@@ -46,3 +46,10 @@ Volume digunakan untuk menyimpan data agar tetap persisten, meskipun container d
 | `docker stop CONTAINER_ID`        | Menghentikan container                      |
 | `docker rm CONTAINER_ID`          | Menghapus container                         |
 | `docker rmi IMAGE_ID`             | Menghapus image                             |
+## Contoh Penggunaan Docker
+
+### 1. **Menjalankan Aplikasi Web**
+Menjalankan server Nginx:
+```bash
+docker run -d -p 8080:80 nginx
+```
