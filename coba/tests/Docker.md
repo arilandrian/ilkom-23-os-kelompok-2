@@ -70,3 +70,8 @@ Akses aplikasi di browser: `http://localhost:8080`
   ```bash
   docker run my-python-app
   ```
+### 3. **Menggunakan Volume**
+Menyimpan data dari container ke host:
+```bash
+docker run -v /host/data:/container/data ubuntu touch /container/data/example.txt
+```
