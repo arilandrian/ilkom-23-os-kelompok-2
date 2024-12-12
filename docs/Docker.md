@@ -31,3 +31,22 @@ Docker Hub adalah repositori online tempat menyimpan dan berbagi image Docker.
 - Untuk menarik (pull) image dari Docker Hub:
   ```bash
   docker pull IMAGE_NAME[:TAG]
+### 5. **Volume**
+Volume digunakan untuk menyimpan data agar tetap persisten, meskipun container dihentikan atau dihapus.
+- Contoh perintah untuk menggunakan volume:
+  ```bash
+  docker run -v /host/path:/container/path IMAGE_NAME
+  ```
+
+## Perintah Dasar Docker
+
+| Perintah                          | Deskripsi                                    |
+|-----------------------------------|---------------------------------------------|
+| `docker --version`                | Mengecek versi Docker yang terinstal        |
+| `docker images`                   | Melihat daftar image yang tersedia          |
+| `docker ps`                       | Melihat container yang sedang berjalan      |
+| `docker ps -a`                    | Melihat semua container                     |
+| `docker run [OPTIONS] IMAGE_NAME` | Menjalankan container dari image            |
+| `docker stop CONTAINER_ID`        | Menghentikan container                      |
+| `docker rm CONTAINER_ID`          | Menghapus container                         |
+| `docker rmi IMAGE_ID`             | Menghapus image                             |
