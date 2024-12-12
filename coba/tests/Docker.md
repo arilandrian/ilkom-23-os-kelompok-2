@@ -34,3 +34,15 @@ Volume digunakan untuk menyimpan data agar tetap persisten, meskipun container d
   ```bash
   docker run -v /host/path:/container/path IMAGE_NAME
   ```
+## Perintah Dasar Docker
+
+| Perintah                          | Deskripsi                                    |
+|-----------------------------------|---------------------------------------------|
+| `docker --version`                | Mengecek versi Docker yang terinstal        |
+| `docker images`                   | Melihat daftar image yang tersedia          |
+| `docker ps`                       | Melihat container yang sedang berjalan      |
+| `docker ps -a`                    | Melihat semua container                     |
+| `docker run [OPTIONS] IMAGE_NAME` | Menjalankan container dari image            |
+| `docker stop CONTAINER_ID`        | Menghentikan container                      |
+| `docker rm CONTAINER_ID`          | Menghapus container                         |
+| `docker rmi IMAGE_ID`             | Menghapus image                             |
