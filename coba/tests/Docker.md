@@ -88,3 +88,5 @@ docker run -v /host/data:/container/data ubuntu touch /container/data/example.tx
   ```bash
   docker system prune -a
   ```
+## Kesimpulan
+Docker adalah alat yang sangat berguna untuk membangun, menjalankan, dan mengelola aplikasi dalam lingkungan yang terisolasi. Dengan memahami konsep dasar dan perintah Docker, Anda dapat meningkatkan efisiensi pengembangan dan deployment aplikasi.
