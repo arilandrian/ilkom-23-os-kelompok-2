@@ -28,3 +28,9 @@ Docker Hub adalah repositori online tempat menyimpan dan berbagi image Docker.
   ```bash
   docker pull IMAGE_NAME[:TAG]
   ```
+### 5. **Volume**
+Volume digunakan untuk menyimpan data agar tetap persisten, meskipun container dihentikan atau dihapus.
+- Contoh perintah untuk menggunakan volume:
+  ```bash
+  docker run -v /host/path:/container/path IMAGE_NAME
+  ```
