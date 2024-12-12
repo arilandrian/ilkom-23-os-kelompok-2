@@ -14,3 +14,11 @@ Container adalah instance dari image. Container bersifat runtime dan dapat dimod
   ```bash
   docker run [OPTIONS] IMAGE_NAME[:TAG]
   ```
+### 3. **Dockerfile**
+Dockerfile adalah file teks yang berisi instruksi untuk membangun image secara otomatis.
+- Contoh Dockerfile sederhana:
+  ```dockerfile
+  FROM ubuntu:latest
+  RUN apt-get update && apt-get install -y python3
+  CMD ["python3"]
+  ```
