@@ -8,3 +8,9 @@ Docker adalah platform containerization yang memungkinkan Anda untuk mengemas ap
 ### 1. **Image**
 Image adalah template read-only yang digunakan untuk membuat container. Sebuah image bisa berisi sistem operasi, aplikasi, dan dependensi.
 - Contoh: `ubuntu:latest`, `nginx:alpine`
+### 2. **Container**
+Container adalah instance dari image. Container bersifat runtime dan dapat dimodifikasi selama berjalan.
+- Perintah untuk membuat container dari image:
+  ```bash
+  docker run [OPTIONS] IMAGE_NAME[:TAG]
+  ```
