@@ -75,3 +75,16 @@ Menyimpan data dari container ke host:
 ```bash
 docker run -v /host/data:/container/data ubuntu touch /container/data/example.txt
 ```
+## Tips dan Trik Docker
+- **Menghentikan semua container:**
+  ```bash
+  docker stop $(docker ps -q)
+  ```
+- **Menghapus semua container:**
+  ```bash
+  docker rm $(docker ps -aq)
+  ```
+- **Membersihkan sistem Docker:**
+  ```bash
+  docker system prune -a
+  ```
