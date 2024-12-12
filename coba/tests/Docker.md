@@ -62,3 +62,11 @@ Akses aplikasi di browser: `http://localhost:8080`
   COPY app.py /app/
   CMD ["python", "/app/app.py"]
   ```
+- Bangun image:
+  ```bash
+  docker build -t my-python-app .
+  ```
+- Jalankan container:
+  ```bash
+  docker run my-python-app
+  ```
