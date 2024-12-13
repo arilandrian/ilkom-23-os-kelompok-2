@@ -13,7 +13,7 @@ docker --version
 ```
 **Output:**
 
-![dockerversion](gambar/Dockerver.png)
+![dockerversion](gambar/dockerver.png)
 
 ---
 
