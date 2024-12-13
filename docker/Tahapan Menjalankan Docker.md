@@ -13,7 +13,7 @@ docker --version
 ```
 **Output:**
 
-![dockerversion](gambar/dockerver.png)
+![dockerversion](https://drive.google.com/file/d/1zGMXzn-Xx2zGooDh-0pW6jnHBlQmhwun/view?usp=sharing)
 
 ---
 
